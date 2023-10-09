@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 LinearLayout appContent = findViewById(R.id.appContent);
                 TextView newText = new TextView(button.getContext());
                 newText.setText(R.string.textItem);
+                newText.setBackgroundColor(+R.color.purple_200);
                 appContent.addView(newText);
             }
         });
