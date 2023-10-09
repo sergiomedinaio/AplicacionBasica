@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View button) {
-                LinearLayout appContent = findViewById(R.id.appContent);
+                LinearLayout content = findViewById(R.id.content);
                 TextView newText = new TextView(button.getContext());
                 newText.setText(R.string.textItem);
                 newText.setBackgroundColor(+R.color.purple_200);
-                appContent.addView(newText);
+                content.addView(newText);
             }
         });
     }
